@@ -1,0 +1,33 @@
+.main__founResults {
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  padding: 10px;
+}
+
+.main__cardBooks {
+  display: flex;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main__btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.main__btn > button {
+  outline: none;
+  border: none;
+  width: 100px;
+  height: 30px;
+  background-color: greenyellow;
+}
+
+.main__text {
+  text-align: center;
+}

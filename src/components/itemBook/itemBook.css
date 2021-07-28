@@ -1,0 +1,41 @@
+.itemBook {
+  width: 310px;
+  min-height: 400px;
+  background-color: rgba(192, 188, 188, 0.671);
+  margin-bottom: 20px;
+  margin-left: 15px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.itemBook:hover {
+  background-color: rgba(0, 128, 0, 0.144);
+}
+
+.itemBook__img {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
+
+.itemBook__title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  height: 80px;
+  overflow: hidden;
+}
+
+.itemBook__categories {
+  margin-top: 10px;
+  height: 20px;
+}
+
+.itemBook__author {
+  margin-top: 20px;
+}
+@media screen and (max-width: 750px) {
+  .itemBook {
+    margin-left: 0;
+  }
+}
